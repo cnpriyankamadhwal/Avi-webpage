@@ -17,6 +17,7 @@ header{
     width: 100%;
     height: 80px;
     padding: 20px;
+    z-index: 5;
 }
 
 .logo a{
@@ -46,8 +47,53 @@ header{
     right:50px;
 }
 
-/* HERO */
-body{
-    background-image: https://static.vecteezy.com/system/resources/previews/006/852/804/large_2x/abstract-blue-background-simple-design-for-your-website-free-vector.jpg;
-s
+#hero{
+    background-image: url("/Img/Hero.webp");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#cousres{
+    margin: 20px 280px;
+    padding: 100px 0;
+}
+.cards{
+    position: relative;
+    box-shadow: 0px 0px 10px#a39d9d;
+    top: 50px;
+    height: 230px;
+    padding: 30px;
+}
+
+.card{
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px#a39d9d;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color:blue;
+}
+
+.card-1{
+    position: absolute;
+    top: 110px;
+    left: 50px;
+
+}
+
+.card-2{
+    position: absolute;
+    top: 110px;
+    left: 353px;
+}
+
+.card-3{
+    position: absolute;
+    top: 110px;
+    left: 647px;
 }
